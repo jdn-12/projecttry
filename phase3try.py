@@ -32,7 +32,7 @@ async def main(page: ft.Page):
         client_secret='',
         authorization_endpoint=f'{base_auth_url}/api/v1/authorize.compact?duration=permanent',
         token_endpoint=f'{base_auth_url}/api/v1/access_token',
-        redirect_url="http://localhost/api/oauth/redirect",
+        redirect_url="https://tryphase3.onrender.com/api/oauth/redirect",
         user_scopes=["identity", "read", "vote"],
     )
 
