@@ -272,4 +272,4 @@ async def main(page: ft.Page):
 
     await page.add_async(base_auth_input, base_api_input, login)  
 
-ft.app(target=main, port=80, view=ft.WEB_BROWSER)
+ft.app(target=main, port=10000, view=ft.WEB_BROWSER)
